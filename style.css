@@ -1,0 +1,61 @@
+body {
+  background-color: transparent;
+}
+
+form {
+  display: block;
+}
+
+#dd_menu_lbl {
+  font-size: 1.3em;
+}
+
+#dd_menu {
+  background-color: rgb(231, 231, 231);
+  padding: 0.5rem 0.5rem;
+  color: rgb(122, 122, 122);
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  border: none;
+  border-radius: 0em 1em;
+  cursor: pointer;
+  float: right;
+  outline: none;
+}
+
+.opt {
+  background-color: rgb(231, 231, 231);
+  color: rgb(122, 122, 122);
+  font-size: 1.2em;
+  font-weight: 500;
+  border: none;
+}
+
+#sub_btn {
+  width: 43.75em;
+  border-radius: 0em 1em;
+  background-color: rgb(36, 6, 6);
+  padding: 0.7rem 1rem;
+  color: rgb(218, 218, 218);
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  outline: none;
+}
+
+#sub_btn:hover {
+  background-color: rgb(201, 201, 201);
+  color: rgb(90, 90, 90);
+}
+
+#editor { 
+  height: 30em; 
+  width: 43.75em;
+  font-size: 1.2em;
+  /* border-radius: 0px 15px; */
+}
